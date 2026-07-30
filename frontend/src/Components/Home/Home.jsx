@@ -8,14 +8,13 @@ const Home = () => {
         <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center text-white p-6">
           <div className="left mb-4">
             <h1 className="text-5xl font-bold">
-              Welcome to <span className="text-accent">Movie</span>{" "}
-              Recommendation System
+              Welcome to <span className="text-accent">Disease</span>{" "}
+              Prediction System
             </h1>
           </div>
           <div className="right">
-            <p className="text-xl text-center">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-              libero dolores nostrum veritatis amet quasi aliquam?
+            <p className="text-xl text-center max-w-2xl">
+              Analyze your symptoms using machine learning to get instant disease predictions along with tailored diet, workout, and medication recommendations.
             </p>
           </div>
         </div>

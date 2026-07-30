@@ -44,24 +44,6 @@ const Navbar = ({ clicked, setClicked }) => {
           Recommendation
         </button>
       </Link>
-      <Link onClick={() => setClicked("contact")} to="/contact">
-        <button
-          className={`btn btn-ghost ${
-            clicked === "contact" ? "text-accent" : ""
-          }`}
-        >
-          Contact
-        </button>
-      </Link>
-      <Link onClick={() => setClicked("about")} to="/about">
-        <button
-          className={`btn btn-ghost ${
-            clicked === "about" ? "text-accent" : ""
-          }`}
-        >
-          About
-        </button>
-      </Link>
     </>
   );
 
@@ -109,7 +91,7 @@ const Navbar = ({ clicked, setClicked }) => {
               className="text-3xl font-bold cursor-pointer mt-1 ml-4"
               onClick={() => setClicked("home")}
             >
-              Med<span className="text-accent">Guide</span>
+              Med<span className="text-accent"> Assistant</span>
             </Link>
           </div>
           <div className="navbar-end gap-3">
