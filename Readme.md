@@ -1,4 +1,4 @@
-# Disease Prediction App
+# Medical Assistant App
 
 A web application that predicts diseases based on user-input symptoms. Built using Flask (Python) for the backend and React for the frontend, this app utilizes machine learning algorithms to provide accurate disease predictions along with detailed descriptions and workout recommendations.
 
@@ -9,7 +9,7 @@ A web application that predicts diseases based on user-input symptoms. Built usi
 - **Workout Recommendations:** - Get suggested workouts tailored to the predicted conditions.
 - **User-Friendly Interface:** - An intuitive React frontend for easy interaction.
 
-## Technologies
+## Tech stack
 
 - **Backend:** - Flask (Python)
 - **Frontend:** - React
@@ -17,7 +17,3 @@ A web application that predicts diseases based on user-input symptoms. Built usi
 - **Database:** - MongoDB
 
 ------------------------
-> *Note 📢* :- Currently in Development but the prediction system is working.
-
------------------------------------
-# Happy Coding 🤖👾
